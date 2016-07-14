@@ -1,0 +1,45 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
+
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
+
+class RNAppView extends Component {
+    //写法一
+  /*render() {
+    return (
+      <View style={{flexDirection: 'Row', margin: 20, height: 100}}>
+          <View style={{backgroundColor: 'red', flex:1}}></View>
+      </View>
+    );
+  }*/
+    // 写法二
+    render(){
+        return(
+            <View style={styles.view_1}>
+                <View style={styles.view_2}></View>
+            </View>
+        );
+    }
+}
+var styles = StyleSheet.create({
+    view_1: {
+        flexDirection: 'row',
+        padding: 20,
+        height: 100
+    },
+    view_2: {
+        backgroundColor: 'red',
+        flex: 1
+    }
+});
+
+AppRegistry.registerComponent('RNAppView', () => RNAppView);
