@@ -22,7 +22,7 @@ class RNAppView extends Component {
                 </Text>
                 <View style={{borderWidth:1,borderStyle: 'dashed',borderColor: 'blue'}}>
                     <Text style={{fontWeight: 'bold', fontSize: 28}}>
-                        水平分布  I am bold
+                        水平分布  I am bold   水平分布  I am bold
                         <Text style={{color: 'red'}}>     and red</Text>
                     </Text>
                 </View>
