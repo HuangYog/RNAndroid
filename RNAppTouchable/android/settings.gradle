@@ -1,0 +1,3 @@
+rootProject.name = 'RNAppTouchable'
+
+include ':app'
