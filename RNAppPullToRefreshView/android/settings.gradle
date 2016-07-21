@@ -1,0 +1,3 @@
+rootProject.name = 'RNAppPullToRefreshView'
+
+include ':app'
