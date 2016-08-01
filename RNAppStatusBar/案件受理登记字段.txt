@@ -1,0 +1,52 @@
+
+    private String id;//ID(公共字段)
+(新)private String ajbh; // 案件编号(公共字段)
+    private String lsh; // 流水号(公共字段)
+    private String wfxwr;//违法行为人 0：个人 1：单位(公共字段)
+    private Date sasj;//受案时间(公共字段)
+    private Date afsj;//案发时间(公共字段)
+(新)private Date lasj;//立案时间(公共字段)
+(新)private String aqjysm;//案情简要说明(公共字段)
+(新)private String cbryj;//承办人意见(公共字段)
+    private String afdd;//案发地点(公共字段)
+    private String ajlydwmchgrxm;//案件来源单位名称或个人姓名(举报人或者移交单位信息)
+    private String ajlylx;//案件来源类型(公共字段)
+    private String ajlydz;//案件来源地址(举报人或者移交单位信息)
+    private String ajlylxfs;//案件来源联系方式(举报人或者移交单位信息)
+    private String frhqtzzmc;//法人或其他组织名称(单位)
+    private String frhqtzzdz;//法人或其他组织地址(单位)
+    private String fzrlxdh;//负责人联系电话(单位)
+    private String fzrxm;//负责人姓名(单位)
+(新)private String fddbr;//法定代表人(单位)
+    private String fzrzw;//负责人职务(单位)
+    private String gmxm;//公民姓名(个人)
+    private String gmzz;//公民住址(个人)
+    private String gmxb;//公民性别(个人)
+    private Integer gmnl;//公民年龄(个人)
+    private String gmsfzh;//公民身份证号(个人)
+    private String gmlxdh;//公民联系电话(个人)
+    private String bz;//备注(公共字段)
+(新)private String ay;//案由(公共字段)
+(新)private String ssyj;//实施依据(公共字段)
+(新)private String zzyyjyj;//中止原因及依据(公共字段)
+(新)private String yqyyjyj;//延期原因及依据(公共字段)
+(新)private String aqclqk;//案件处理情况(公共字段)
+(新)private String qzzl;//强制种类(公共字段)
+    private String sajl;//受案记录(公共字段)
+    private String slrjy;//受理人建议(公共字段)
+    private String shyj;//审核意见(公共字段)
+    private String x;//经度(公共字段)
+    private String y;//纬度(公共字段)
+    private Date cjsj;//创建时间:默认当前时间(公共字段)
+    private String userId;//用户ID(公共字段)
+    private String deptCode;//部门代码(公共字段)
+ (新)private String sfqzcs;//是否强制措施
+ (新)private String sfzzyq;//是否中止延期  1：中止 2：延期 3：非中止和延期
+    /**
+     * 审批状态
+     * 0受理-未提交 ：1受理-待审核 ：2取证-已取证 ：3立案审核 ：4立案审批 ：5二次取证 ：6行政审核
+     * ：7行政审批 ：8权力告知 ：9听证 ：10处罚决定 ：11结案 ：12执行 ：13归档
+     */
+    private String spzt;//----------------------------------(公共字段)
+    private String processId;//流程Id---------------------(公共字段)
+  
